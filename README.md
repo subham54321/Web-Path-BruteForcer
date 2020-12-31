@@ -13,8 +13,9 @@ Sample wordlist: Link
 
 * List of success status code: (default: [200])
 
+
+## Sample Input:
 ```
-Sample Input:
 Webapp url: https://www.github.com
 Webapp paths: sample 5 lines out of 1000 of the input file wordlist.txt
 <ul><li>admin
@@ -24,8 +25,9 @@ Webapp paths: sample 5 lines out of 1000 of the input file wordlist.txt
 <li>pricing
 <li>Success status codes: [200, 302]</ul>
 ```
-```
-Sample Output: A list of URLs that responded with any of the success status codes as provided in
+
+##Sample Output: 
+```A list of URLs that responded with any of the success status codes as provided in
 the input by the user.
 
 • https://www.github.com/info [Status code 302]
