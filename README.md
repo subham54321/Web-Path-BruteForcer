@@ -18,12 +18,12 @@ Sample wordlist: Link
 ```
 Webapp url: https://www.github.com
 Webapp paths: sample 5 lines out of 1000 of the input file wordlist.txt
-<ul><li>admin
-<li>info
-<li>git/config
-<li>.htaccess
-<li>pricing
-<li>Success status codes: [200, 302]</ul>
+*admin
+*info
+*git/config
+*.htaccess
+*pricing
+*Success status codes: [200, 302]</ul>
 ```
 
 ## Sample Output: 
