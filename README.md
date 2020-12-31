@@ -26,7 +26,7 @@ Webapp paths: sample 5 lines out of 1000 of the input file wordlist.txt
 <li>Success status codes: [200, 302]</ul>
 ```
 
-##Sample Output: 
+## Sample Output: 
 ```A list of URLs that responded with any of the success status codes as provided in
 the input by the user.
 
@@ -51,5 +51,5 @@ https://github.com/.htaccess[Status code 404]
 https://github.com/pricing[Status code 200]
 ```
 
-## Approach 
-Multithreading is used to parallely send the HTTP request and get the response code.
+## Note 
+Multithreading is used for faster performance.
